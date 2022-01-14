@@ -108,7 +108,7 @@ main {
   height: 476px;
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .collection img {
   width: 300px;
@@ -155,4 +155,9 @@ main {
   font-weight: 700;
   color: #787885;
   padding-left: 14px;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
 }
