@@ -253,7 +253,11 @@ footer {
 }
 
 /* Mobile Devices */
-@media only screen and (max-width: 800px) {
+*{
+  margin:0;
+  padding:0;
+}
+@media (max-width: 800px) {
   .container {
     width: 100%;
   }
@@ -262,7 +266,7 @@ footer {
     margin-top: 90px;
     font-size: 25px;
   }
-  .fa-bars{
+  .fa-bars {
     font-size: 30px;
     padding-right: 10px;
   }
@@ -275,19 +279,18 @@ footer {
     flex-direction: column;
     background-color: lightgrey;
     transform: translateY(-432px);
-    transition: .4s ease-in-out;
-   
+    transition: 0.4s ease-in-out;
   }
   .menu-items li {
     margin-top: 10px;
     margin-left: 110px;
-    margin-top: 20px; /*cng thise wih align item*/
+    margin-top: 20px; /*alng item*/
   }
-  #nav-toggler:checked ~ .menu-items{
+  #nav-toggler:checked ~ .menu-items {
     transform: translateY(0px);
   }
-  .icon{
-    margin-left: 20px;
+  .icon {
+    margin-left: 10px;
   }
   .banner {
     flex-direction: column;
@@ -296,30 +299,35 @@ footer {
     order: 2;
   }
   .title {
+    padding:0;
+    margin:0;
     text-align: center;
+    font-size: 30px;
   }
-  .social-icons img{
-    width: 60px;
+  .social-icons img {
+    width: 50px;
   }
-  .social-icons{
+  .social-icons {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-column-gap:20px;
-    grid-row-gap:20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     box-shadow: none;
   }
   .banner-section p {
-    text-align: justify;
-    margin: 0 30px;
+    text-align: center;
+
+    margin: 0px;
   }
   .banner-section a {
-    margin: 0 83px;
+    margin-left: 100px;
   }
   .image-section {
     margin-left: 0;
   }
   .image-section img {
-    width: 100%;
+    width: 85%;
+    margin-bottom: 0px;
   }
 
   .popular-collection {
@@ -340,15 +348,15 @@ footer {
     width: 100px;
   }
   .iframe-item {
-    width: 350px;
-    height: 320px;
+    width: 300px;
+    height: 280px;
   }
   .contact input {
-    width: 360px;
+    width: 300px;
     margin-left: 10px;
   }
   textarea {
-    width: 360px;
+    width: 300px;
     margin-left: 10px;
   }
   .contact a {
@@ -357,5 +365,8 @@ footer {
   }
   .contact h2 {
     margin-left: 10px;
+  }
+  footer {
+    width: 100%;
   }
 }
