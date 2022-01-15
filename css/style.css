@@ -166,6 +166,44 @@ main {
   font-weight: bold;
   margin-left: 1120px;
 }
+/* Contact items css  */
+.contact-items {
+  display: flex;
+  margin-top: 80px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  width: 30%;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+input {
+  width: 500px;
+  height: 35px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(224, 44, 109, 0.87);
+  border-radius: 5px;
+}
+textarea {
+  border: 1px solid rgba(224, 44, 109, 0.87);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.contact h2{
+  font-size: 38px;
+  color:#0A0826;
+}
+.map {
+  margin-left: 300px;
+}
 
 /* Footer CSS  */
 footer {
@@ -174,20 +212,20 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #0c0a27;
-  padding-top:40px;
+  padding-top: 40px;
 }
 .footer-title {
   color: #ffffff;
   font-size: 24px;
   font-weight: bold;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 .footer-info {
   font-size: 14px;
   font-weight: bold;
   color: #d9dbe1;
-  margin:5px;
+  margin: 5px;
 }
 .social-icon {
   font-size: 25px;
@@ -196,5 +234,9 @@ footer {
 }
 .social-icon .fab {
   margin-left: 20px;
-  margin-top:20px;
+  margin-top: 20px;
+}
+.social-icon a {
+  text-decoration: none;
+  color: white;
 }
