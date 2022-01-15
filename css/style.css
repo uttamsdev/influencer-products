@@ -91,6 +91,7 @@ main {
 .title {
   padding: 0;
   margin: 0;
+
 }
 .social-icons {
   display: grid;
@@ -302,7 +303,7 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
   }
   .social-icons img {
     width: 50px;
@@ -318,8 +319,8 @@ footer {
   }
   .banner-section p {
     text-align: center;
-
     margin: 0px;
+    font-size: 14px;
   }
   .banner-section{
     margin-top: 0px;
@@ -337,7 +338,10 @@ footer {
     width: 85%;
     margin-bottom: 0px;
   }
-
+.collection-title{
+  font-size: 16px;
+  font-weight: 600;
+}
   .popular-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -377,6 +381,12 @@ footer {
   }
   footer {
     width: 100%;
+  }
+  .footer-title{
+    font-size: 16px;
+  }
+  .footer-info{
+    font-size: 12px;
   }
 }
 
