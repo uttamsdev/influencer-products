@@ -25,6 +25,13 @@ main {
   display: flex;
   justify-content: space-between;
 }
+/* nav toggler  */
+#nav-toggler {
+  display: none;
+}
+.nav-toggler-icon {
+  display: none;
+}
 .menu-items li {
   list-style: none;
   display: inline-block;
@@ -53,11 +60,11 @@ main {
   color: #3a3a3a;
 }
 .banner-section {
-  width: 50%;
+  /* width: 50%; */
   margin-top: 145px;
 }
 .image-section {
-  width: 50%;
+  /* width: 50%; */
   margin-top: 60px;
   margin-left: 200px;
 }
@@ -243,4 +250,112 @@ footer {
 .social-icon a {
   text-decoration: none;
   color: white;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .nav-toggler-icon {
+    display: block;
+    margin-top: 90px;
+    font-size: 25px;
+  }
+  .fa-bars{
+    font-size: 30px;
+    padding-right: 10px;
+  }
+  .menu-items {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    transform: translateY(-432px);
+    transition: .4s ease-in-out;
+   
+  }
+  .menu-items li {
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-top: 20px; /*cng thise wih align item*/
+  }
+  #nav-toggler:checked ~ .menu-items{
+    transform: translateY(0px);
+  }
+  .icon{
+    margin-left: 20px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-section {
+    order: 2;
+  }
+  .title {
+    text-align: center;
+  }
+  .social-icons img{
+    width: 60px;
+  }
+  .social-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    box-shadow: none;
+  }
+  .banner-section p {
+    text-align: justify;
+    margin: 0 30px;
+  }
+  .banner-section a {
+    margin: 0 83px;
+  }
+  .image-section {
+    margin-left: 0;
+  }
+  .image-section img {
+    width: 100%;
+  }
+
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 15px 15px 15px 40px;
+  }
+  .see-more {
+    margin-left: 50px;
+  }
+  .contact-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .map {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+  }
+  .iframe-item {
+    width: 350px;
+    height: 320px;
+  }
+  .contact input {
+    width: 360px;
+    margin-left: 10px;
+  }
+  textarea {
+    width: 360px;
+    margin-left: 10px;
+  }
+  .contact a {
+    width: 150px;
+    margin: 10px 0px 10px 10px;
+  }
+  .contact h2 {
+    margin-left: 10px;
+  }
 }
