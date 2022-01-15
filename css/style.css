@@ -322,7 +322,7 @@ footer {
     margin-left: 100px;
   }
   .image-section {
-    margin-left: 0;
+    margin-left: 50px;
   }
   .image-section img {
     width: 85%;
@@ -344,18 +344,17 @@ footer {
   .map {
     margin-left: 20px;
     margin-top: 20px;
-    width: 100px;
   }
   .iframe-item {
-    width: 300px;
+    width: 320px;
     height: 280px;
   }
   .contact input {
-    width: 300px;
+    width: 320px;
     margin-left: 20px;
   }
   textarea {
-    width: 300px;
+    width: 320px;
     margin-left: 20px;
   }
   .contact a {
