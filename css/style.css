@@ -67,6 +67,10 @@ main {
   margin-top: 60px;
   margin-left: 200px;
 }
+.image-section:hover img {
+  transform: scale(1) rotate(360deg);
+  transition: transform 2s ease-in;
+}
 .banner-section p {
   font-size: 16px;
   font-weight: 600;
@@ -91,7 +95,12 @@ main {
 .title {
   padding: 0;
   margin: 0;
+}
+.title:hover{
 
+transform: scale(1) rotate(360deg);
+transition: transform .4s ease-in-out;
+        
 }
 .social-icons {
   display: grid;
@@ -322,7 +331,7 @@ footer {
     margin: 0px;
     font-size: 14px;
   }
-  .banner-section{
+  .banner-section {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -338,10 +347,10 @@ footer {
     width: 85%;
     margin-bottom: 0px;
   }
-.collection-title{
-  font-size: 16px;
-  font-weight: 600;
-}
+  .collection-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
   .popular-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -376,16 +385,16 @@ footer {
   }
   .contact h2 {
     text-align: center;
-    color:#3A3A3A;
+    color: #3a3a3a;
     font-size: 30px;
   }
   footer {
     width: 100%;
   }
-  .footer-title{
+  .footer-title {
     font-size: 16px;
   }
-  .footer-info{
+  .footer-info {
     font-size: 12px;
   }
 }
