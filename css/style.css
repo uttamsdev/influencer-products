@@ -262,7 +262,7 @@ footer {
   }
   .nav-toggler-icon {
     display: block;
-    margin-top: 90px;
+    margin-top: 30px;
     font-size: 25px;
   }
   .fa-bars {
@@ -289,6 +289,7 @@ footer {
     transform: translateY(0px);
   }
   .icon {
+    margin-top: 25px;
     margin-left: 10px;
   }
   .banner {
@@ -312,16 +313,24 @@ footer {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     box-shadow: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
   .banner-section p {
     text-align: center;
 
     margin: 0px;
   }
+  .banner-section{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .banner-section a {
     margin-left: 100px;
   }
   .image-section {
+    margin-top: 35px;
+    margin-bottom: 0px;
     margin-left: 50px;
   }
   .image-section img {
@@ -332,7 +341,7 @@ footer {
   .popular-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 15px 15px 15px 40px;
+    margin-left: 30px;
   }
   .see-more {
     margin-left: 50px;
