@@ -360,18 +360,20 @@ footer {
   }
   .contact input {
     width: 320px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   textarea {
     width: 320px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .contact a {
     width: 150px;
     margin: 10px 0px 10px 20px;
   }
   .contact h2 {
-    margin-left: 10px;
+    text-align: center;
+    color:#3A3A3A;
+    font-size: 30px;
   }
   footer {
     width: 100%;
