@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Roboto:wght@400;700&display=swap");
-
+/* body  */
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +14,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
+/* Container section  */
 .container {
   width: 1350px;
 }
@@ -60,11 +61,9 @@ main {
   color: #3a3a3a;
 }
 .banner-section {
-  /* width: 50%; */
   margin-top: 145px;
 }
 .image-section {
-  /* width: 50%; */
   margin-top: 60px;
   margin-left: 200px;
 }
@@ -253,11 +252,11 @@ footer {
 }
 
 /* Mobile Devices */
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-@media (max-width: 800px) {
+@media (max-width: 688px) {
   .container {
     width: 100%;
   }
@@ -299,8 +298,8 @@ footer {
     order: 2;
   }
   .title {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     text-align: center;
     font-size: 30px;
   }
@@ -353,20 +352,89 @@ footer {
   }
   .contact input {
     width: 300px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   textarea {
     width: 300px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .contact a {
     width: 150px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 20px;
   }
   .contact h2 {
     margin-left: 10px;
   }
   footer {
     width: 100%;
+  }
+}
+
+/* Tablet/Pad devices view */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .menu-items {
+    margin-top: 50px;
+    padding-right: 10px;
+  }
+  .menu-items li {
+    margin-left: 10px;
+  }
+  .icon {
+    margin-left: 10px;
+  }
+  .image-section img {
+    width: 100%;
+  }
+  .image-section {
+    margin-right: 150px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-section {
+    order: 2;
+  }
+  .social-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .popular-collection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    margin-left: 40px;
+  }
+  .see-more {
+    margin-left: 40px;
+  }
+  .title {
+    text-align: center;
+  }
+  .banner-section p {
+    margin: 0 10px;
+    text-align: center;
+  }
+  .banner-section a {
+    margin-left: 300px;
+  }
+  .popular-collection {
+    margin-left: 40px;
+  }
+  .contact {
+    margin-left: 40px;
+  }
+  textarea {
+    width: 501px;
   }
 }
