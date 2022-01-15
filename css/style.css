@@ -166,6 +166,9 @@ main {
   font-weight: bold;
   margin-left: 1120px;
 }
+.more-items{
+  margin-top: 30px;
+}
 /* Contact items css  */
 .contact-items {
   display: flex;
@@ -187,7 +190,7 @@ main {
 }
 input {
   width: 500px;
-  height: 35px;
+  height: 40px;
   margin-bottom: 10px;
   border: 1px solid rgba(224, 44, 109, 0.87);
   border-radius: 5px;
