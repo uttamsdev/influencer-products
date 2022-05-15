@@ -187,8 +187,9 @@ main {
 /* Contact items css  */
 .contact-items {
   display: flex;
-  margin-top: 150px;
-  margin-bottom: 100px;
+  gap: 250px;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 .contact {
   display: flex;
@@ -236,7 +237,11 @@ textarea:focus {
   color: #0a0826;
 }
 .map {
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin-top: 50px;
+}
+iframe{
+  border-radius: 5px;
 }
 
 /* Footer CSS  */
@@ -375,7 +380,10 @@ footer {
   }
   .contact-items {
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    padding: 0px 20px;
+
+    gap: 50px;
   }
   .map {
     margin-left: 20px;
@@ -387,14 +395,15 @@ footer {
   }
   .contact input {
     width: 320px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    /* padding: 0px 20px; */
   }
   textarea {
     width: 320px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
   }
   .contact-items{
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .contact a {
     width: 150px;
