@@ -96,11 +96,9 @@ main {
   padding: 0;
   margin: 0;
 }
-.title:hover{
-
-transform: scale(1) rotate(360deg);
-transition: transform .4s ease-in-out;
-        
+.title:hover {
+  transform: scale(1) rotate(360deg);
+  transition: transform 0.4s ease-in-out;
 }
 .social-icons {
   display: grid;
@@ -189,7 +187,8 @@ transition: transform .4s ease-in-out;
 /* Contact items css  */
 .contact-items {
   display: flex;
-  margin-top: 80px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 .contact {
   display: flex;
@@ -207,17 +206,32 @@ transition: transform .4s ease-in-out;
 }
 input {
   width: 500px;
-  height: 40px;
+  height: 35px;
+  padding: 10px 20px;
   margin-bottom: 10px;
   border: 1px solid rgba(224, 44, 109, 0.87);
   border-radius: 5px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: none;
+  outline: 2px solid red;
 }
 textarea {
   border: 1px solid rgba(224, 44, 109, 0.87);
   border-radius: 5px;
   margin-bottom: 15px;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+}
+textarea:focus {
+  outline: 2px solid red;
+}
+::placeholder {
+  font-size: 18px;
 }
 .contact h2 {
+  margin-bottom: 20px;
   font-size: 38px;
   color: #0a0826;
 }
@@ -378,6 +392,9 @@ footer {
   textarea {
     width: 320px;
     margin-left: 25px;
+  }
+  .contact-items{
+    margin-top: 100px;
   }
   .contact a {
     width: 150px;
